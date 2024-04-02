@@ -1,0 +1,84 @@
+/*Team page styles*/
+
+
+body{
+  background-image:url("backgroungImage.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.thumbnailContainer {
+    display: inline-block;
+    position: relative;
+    left: 20px;
+      
+}
+
+.thumbnail {
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease;
+    padding-left: 40px;
+    filter: brightness(110%); 
+    border-radius: 20px;
+    background-color: black;
+    margin: 9px;
+    border: 2px solid black;
+
+}
+
+.detailsBox {
+    position: absolute;
+    bottom: -190px;
+    left: 30px;
+    width: 328px;
+    background-color:rgba(255, 239, 14, 0.5)  ;
+    color: black;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+    visibility: hidden;
+    border-radius: 20px;
+    border:  10px black;
+    margin-bottom: 100;
+    border: 2px solid black;
+}
+
+.thumbnailContainer:hover .detailsBox {
+    visibility: visible; 
+}
+
+.thumbnail:hover {
+    filter: brightness(90%); 
+    transform: scale(1.1);
+    border: 2px black;
+}
+
+.pageTitle{
+  text-align: center;
+  background-color: black;
+  color: orange;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  text-shadow: 4px 4px 6px red;
+  box-shadow: 2px 3px rgb(181, 117, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 5px solid rgb(198, 131, 5);
+
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  text-align: center;  
+}  
+
+
+
+

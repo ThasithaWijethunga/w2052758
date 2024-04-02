@@ -1,0 +1,58 @@
+/*Team page styles*/
+body{
+  background-image:url("backgroungImage.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.pageInside{
+    border: 3px solid black;
+    max-width: 800px;
+    margin: auto;
+    padding: 5px;
+
+}
+
+.pageTitle{
+  text-align: center;
+  background-color: black;
+  color: orange;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  text-shadow: 4px 4px 6px red;
+  box-shadow: 2px 3px rgb(181, 117, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 5px solid rgb(198, 131, 5);
+
+}
+
+.studentDetails p{
+    text-align: center;
+    
+}
+
+.studentDetails{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(237, 237, 237);
+
+}
+
+.pageEditorInside h2{
+    text-align: center;
+
+}
+
+.pageEditorInside p{
+    text-align: center;
+
+}
+
+.pageEditorInside{
+    background-color: rgb(254, 223, 166);
+    border: 2px solid rgb(192, 124, 0);
+
+}

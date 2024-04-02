@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eatwell</title>
+
+<!--External CSS files-->
+<link rel="stylesheet" href="navigation bar.css">
+<link rel="stylesheet" href="User Profile.css">
+
+<!--Java script file-->
+<script src="User Profile.js"></script>
+
+</head>
+<body>
+
+    <hr>
+    <!--Logo section-->
+    <div class="logo">
+        <img src="logo.jpg" alt="logo">
+    </div>
+
+    <!--Navigation bar-->
+    <div class="topnav">
+        <nav>
+            <a><button>Home</button></a>
+            <a><button>Gallery</button></a>
+            <a ><button>Shop</button></a>
+            <a href="User Profile.html"><button>User Profile</button></a>
+            <a><button>FeedBack</button></a>
+            <a><button>Sitemap</button></a>
+            <a href="Team.html"><button>Team</button></a>
+            <a href="content.html"><button>Content Page</button></a>
+            <a href="Page Editor.html"><button>Page Editor</button></a>
+        </nav>
+    </div>
+    
+     <!--Page title-->
+    <div class="pageTitle">
+        <h1>User Profile</h1>
+    </div>
+    
+
+    <!--Progress bar-->
+    <div class="progressContainer">
+        <div class="progressBar" id="progressBar">0</div>
+    </div>
+
+    <!--buttons for adding details-->
+    <button class="personalDetailsbutton"  onclick=" profilePersonalDetails()">Add Personal Details</button>
+    <button class="contactDetailsbutton"  onclick="profileContactInformation()">Add Contact Information</button>
+    <button class="preferencesTastesbutton"  onclick="profilePreferencesTaste()">Add Preferences and Tastes</button>
+
+    
+    <!--Output container for displaying details-->
+    <div class="outputContainer">
+        <div class="detailsOutputBox " id="detailsOutputPersonal">Personal Details:</div>
+        <div class="detailsOutputBox , outputboxContact " id="detailsOutputContact">Contact Information:</div>
+        <div class="detailsOutputBox , outputboxPreferenceTaste " id="detailsOutputPreferencesTastes">Preferences and Tastes:</div>
+    </div>
+
+</body>
+</html>
+
